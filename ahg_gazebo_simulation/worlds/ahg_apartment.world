@@ -6,6 +6,36 @@
       <pose>0 0 0 0 0 0</pose>
     </include>
     <include>
+      <uri>model://chair_1</uri>
+      <name>chair1</name>
+      <pose>-6.492980 -2.550330 0 0 0 3.14</pose>
+    </include>
+    <include>
+      <uri>model://chair_1</uri>
+      <name>chair2</name>
+      <pose>-6.492980 -1.788330 0 0 0 3.14</pose>
+    </include>
+    <include>
+      <uri>model://chair_1</uri>
+      <name>chair3</name>
+      <pose>-6.492980 -1.026330 0 0 0 3.14</pose>
+    </include>
+    <include>
+      <uri>model://chair_1</uri>
+      <name>chair4</name>
+      <pose>-6.492980 -0.265300 0 0 0 3.14</pose>
+    </include>
+    <include>
+      <uri>model://ahg_table</uri>
+      <name>table</name>
+      <pose>-6.787863 -1.427580 0.762 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://ahg_bookcase</uri>
+      <name>bookcase</name>
+      <pose>-9.670289 3.020210 0 0 0 0</pose>
+    </include>
+    <include>
       <uri>model://sun</uri>
     </include>
     <include>
@@ -40,3 +70,5 @@
     </gui>
   </world>
 </sdf>
+
+<!-- chair model found from a database of models used for this research: A.Rasouli, J.K. Tsotsos. "The Effect of Color Space Selection on Detectability and Discriminability of Colored Objects." arXiv preprint arXiv:1702.05421 (2017). -->
