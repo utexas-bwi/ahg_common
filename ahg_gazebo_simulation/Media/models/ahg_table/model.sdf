@@ -1,0 +1,119 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='ahg_table'>
+    <static>1</static>
+    <link name='link'>
+      <pose frame=''>0 0 0 0 -0 0</pose>
+      <gravity>1</gravity>
+      <visual name='visual'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9144 3.048 0.0125</size>
+          </box>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Wood</name>
+          </script>
+          <ambient>0.3 0.3 0.3 1</ambient>
+        </material>
+        <transparency>0</transparency>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+
+      <visual name='right_leg_visual'>
+        <pose frame=''>0 1.524 -0.381 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9144 0.0125 0.762</size>
+          </box>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Wood</name>
+          </script>
+          <ambient>0.3 0.3 0.3 1</ambient>
+        </material>
+        <transparency>0</transparency>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+
+      <visual name='left_leg_visual'>
+        <pose frame=''>0 -1.524 -0.381 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9144 0.0125 0.762</size>
+          </box>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Wood</name>
+          </script>
+          <ambient>0.3 0.3 0.3 1</ambient>
+        </material>
+        <transparency>0</transparency>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+
+      <visual name='middle_visual'>
+        <pose frame=''>0 0 -0.37475 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0125 3.023 0.7495</size>
+          </box>
+        </geometry>
+        <material>
+          <lighting>1</lighting>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Wood</name>
+          </script>
+          <ambient>0.3 0.3 0.3 1</ambient>
+        </material>
+        <transparency>0</transparency>
+        <cast_shadows>1</cast_shadows>
+      </visual>
+
+      <collision name='right_leg'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 1.524 -0.381 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9144 0.0125 0.762</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <collision name='left_leg'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 -1.524 -0.381 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9144 0.0125 0.762</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <collision name='middle'>
+        <laser_retro>0</laser_retro>
+        <max_contacts>10</max_contacts>
+        <pose frame=''>0 0 -0.37475 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0125 3.023 0.7495</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+    <allow_auto_disable>1</allow_auto_disable>
+  </model>
+</sdf>
