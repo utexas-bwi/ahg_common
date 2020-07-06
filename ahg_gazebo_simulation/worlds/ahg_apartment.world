@@ -6,6 +6,46 @@
       <pose>0 0 0 0 0 0</pose>
     </include>
     <include>
+      <uri>model://kitchencab</uri>
+      <name>kitchencab</name>
+      <pose>-9.6182 -0.781398 0.009025 0 -0 1.58311</pose>
+    </include>
+    <include>
+      <uri>model://cabdoor</uri>
+      <name>cabdoor</name>
+      <pose>-9.583 -1.7733 -0.032279 -0.001454 0.092063 3.10978</pose>
+    </include>
+    <include>
+      <uri>model://drawers</uri>
+      <name>drawercab</name>
+      <pose>-9.73854 -0.059237 0.01031 0 -0 1.54676</pose>
+    </include>
+    <include>
+      <uri>model://Tall-Cabinet</uri>
+      <name>tallcab</name>
+      <pose>-9.71502 -2.38166 0.00057 1.57007 -1e-06 -3.14091</pose>
+    </include>
+    <include>
+      <uri>model://shelf</uri>
+      <name>shelf0</name>
+      <pose>-9.76014 -0.933182 1.02645 0 0 -1.58999</pose>
+    </include>
+    <include>
+      <uri>model://shelf</uri>
+      <name>shelf1</name>
+      <pose>-9.74464 -0.940107 1.93298 0 0 -1.56952</pose>
+    </include>
+    <include>
+      <uri>model://shelf</uri>
+      <name>shelf2</name>
+      <pose>-9.74458 -0.944346 1.47391 0 0 -1.57628</pose>
+    </include>
+    <include>
+      <uri>model://sink</uri>
+      <name>sink</name>
+      <pose>-9.72683 -1.25088 1.08353 0 -0 1.56448</pose>
+    </include>
+    <include>
       <uri>model://chair_1</uri>
       <name>chair1</name>
       <pose>-6.492980 -2.550330 0 0 0 3.14</pose>

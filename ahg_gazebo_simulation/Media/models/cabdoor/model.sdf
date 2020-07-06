@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+    <model name='cabdoor'>
+      <link name='dummy_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <collision name='dummy_link_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0 0 0</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='dummy_link_fixed_joint_lump__cabinet_structure_collision_1'>
+          <pose frame=''>0 0 0.53 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.28 0.4 0.97</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='dummy_link_fixed_joint_lump__cabinet_door_collision_2'>
+          <pose frame=''>-0.14 0 0.52 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.02 0.4 0.89</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='dummy_link_fixed_joint_lump__knob1_link_collision_3'>
+          <pose frame=''>-0.155 -0.1825 0.95 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.03 0.015 0.01</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='dummy_link_fixed_joint_lump__knob3_link_collision_4'>
+          <pose frame=''>-0.175 -0.1825 0.88 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.01 0.015 0.14</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='dummy_link_fixed_joint_lump__knob2_link_collision_5'>
+          <pose frame=''>-0.155 -0.1825 0.82 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.03 0.015 0.01</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='dummy_link_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0 0 0</size>
+            </box>
+          </geometry>
+        </visual>
+        <visual name='dummy_link_fixed_joint_lump__cabinet_structure_visual_1'>
+          <pose frame=''>0 0 0.53 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.28 0.4 0.97</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+            <emissive>0.05 0.05 0.05 1</emissive>
+          </material>
+        </visual>
+        <visual name='dummy_link_fixed_joint_lump__cabinet_door_visual_2'>
+          <pose frame=''>-0.14 0 0.52 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.02 0.4 0.89</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+            <emissive>0.05 0.05 0.05 1</emissive>
+          </material>
+        </visual>
+        <visual name='dummy_link_fixed_joint_lump__knob1_link_visual_3'>
+          <pose frame=''>-0.155 -0.1825 0.95 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.03 0.015 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/Black</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='dummy_link_fixed_joint_lump__knob3_link_visual_4'>
+          <pose frame=''>-0.175 -0.1825 0.88 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.01 0.015 0.14</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/Black</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='dummy_link_fixed_joint_lump__knob2_link_visual_5'>
+          <pose frame=''>-0.155 -0.1825 0.82 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.03 0.015 0.01</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/Black</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
+      <allow_auto_disable>1</allow_auto_disable>
+      <pose frame=''>0 0 1 0 -0 0</pose>
+    </model>
+</sdf>
