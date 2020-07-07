@@ -106,7 +106,7 @@
         <cast_shadows>1</cast_shadows>
       </visual>
 
-      <visual name='case_left_visual'> <!-- 1.5621 0.77123 1.5493-->
+      <visual name='case_left_visual'>
         <pose frame=''>0 -0.38725 0.76007 0 -0 0</pose>
         <geometry>
           <box>
