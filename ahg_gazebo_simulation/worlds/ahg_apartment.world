@@ -76,6 +76,41 @@
       <pose>-9.670289 3.020210 0 0 0 0</pose>
     </include>
     <include>
+      <uri>model://plate_1</uri>
+      <name>plate1</name>
+      <pose>-9.652203 -0.323578 1.048961 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://cup_yellow</uri>
+      <name>yellow_cup</name>
+      <pose>-6.910932 -1.780977 0.768541 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://cup_blue</uri>
+      <name>blue_cup</name>
+      <pose>-6.910932 -2.471881 0.768541 0 0 3.14</pose>
+    </include>
+    <include>
+      <uri>model://can_sprite</uri>
+      <name>sprite</name>
+      <pose>-6.910932 -1.110257 0.768541 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://can_fanta</uri>
+      <name>fanta</name>
+      <pose>-6.910932 -0.392531 0.768541 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://biscuit_box</uri>
+      <name>biscuits</name>
+      <pose>-9.653394 -0.745104 1.054504 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://tea_box</uri>
+      <name>tea</name>
+      <pose>-9.605016 -1.205084 0.235153 0 0 0</pose>
+    </include>
+    <include>
       <uri>model://sun</uri>
     </include>
     <include>
@@ -111,4 +146,4 @@
   </world>
 </sdf>
 
-<!-- chair model found from a database of models used for this research: A.Rasouli, J.K. Tsotsos. "The Effect of Color Space Selection on Detectability and Discriminability of Colored Objects." arXiv preprint arXiv:1702.05421 (2017). -->
+<!-- Chair, food/drink, and plate models found from a database of models used for this research: A.Rasouli, J.K. Tsotsos. "The Effect of Color Space Selection on Detectability and Discriminability of Colored Objects." arXiv preprint arXiv:1702.05421 (2017). -->
