@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>utexas_ahg</name>
+  <version>0.0.0</version>
+  <description>The maps for the Anna Hiss Gymnasium of UT Austin.</description>
+
+  <maintainer email="jiangyuqiasn@utexas.edu">Yuqian Jiang</maintainer>
+  <maintainer email="maxwell@cs.utexas.edu">Max Svetlik</maintainer>
+
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/utexas-bwi/ahg_common</url>
+  <url type="bugtracker">https://github.com/utexas-bwi/ahg_common/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+</package>
