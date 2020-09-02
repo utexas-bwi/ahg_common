@@ -1,0 +1,18 @@
+version: 1
+entities:
+    - concept: "lab"
+    - instance: ["bwi", "lab"]
+      attributes:
+      - name: "has"
+        value:
+          instance: ["2_200", "room"]
+    - concept: "visitable"
+    - instance: ["d2_202e", "door"]
+      instance_of: ["visitable"]
+    - instance: ["d2_202c", "door"]
+      instance_of: ["visitable"]
+    - instance: ["d2_202w", "door"]
+      instance_of: ["visitable"]
+    - instance: ["2_100_sanitizer_s", "location"]
+      instance_of: ["visitable"]
+
