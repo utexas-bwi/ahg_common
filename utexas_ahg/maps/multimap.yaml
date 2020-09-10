@@ -1,4 +1,8 @@
 maps:
+  1stFloor:
+    yaml: package://utexas_ahg/maps/1s/occ/cropped.yaml
+    origin: [0, 0, 3, 0, 0, 0]
+    data_directory: package://utexas_ahg/maps/1s/occ
   2ndFloor:
     yaml: package://utexas_ahg/maps/2s/occ/cropped.yaml
     origin: [0, 0, 3, 0, 0, 0]
