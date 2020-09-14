@@ -15,4 +15,8 @@ entities:
       instance_of: ["visitable"]
     - instance: ["2_100_sanitizer_s", "location"]
       instance_of: ["visitable"]
+    - instance: ["d1_214e", "door"]
+      instance_of: ["visitable"]
+    - instance: ["d1_214w", "door"]
+      instance_of: ["visitable"]
 
