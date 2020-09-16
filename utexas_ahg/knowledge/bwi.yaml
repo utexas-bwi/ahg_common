@@ -6,17 +6,18 @@ entities:
       - name: "has"
         value:
           instance: ["2_200", "room"]
-    - concept: "visitable"
+    - concept: "visitable_2s"
     - instance: ["d2_202e", "door"]
-      instance_of: ["visitable"]
+      instance_of: ["visitable_2s"]
     - instance: ["d2_202c", "door"]
-      instance_of: ["visitable"]
+      instance_of: ["visitable_2s"]
     - instance: ["d2_202w", "door"]
-      instance_of: ["visitable"]
+      instance_of: ["visitable_2s"]
     - instance: ["2_100_sanitizer_s", "location"]
-      instance_of: ["visitable"]
+      instance_of: ["visitable_2s"]
+    - concept: "visitable_1s"
     - instance: ["d1_214e", "door"]
-      instance_of: ["visitable"]
+      instance_of: ["visitable_1s"]
     - instance: ["d1_214w", "door"]
-      instance_of: ["visitable"]
+      instance_of: ["visitable_1s"]
 
