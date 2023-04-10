@@ -1,0 +1,8 @@
+2,118: []
+'2.100': ['2.300']
+'2.200': [couch]
+'2.202': [apartment_area, justin_hallway]
+'2.300': ['2.100']
+apartment_area: ['2.202']
+couch: ['2.200']
+justin_hallway: ['2.202']
