@@ -7,7 +7,7 @@ maps:
     yaml: package://utexas_ahg/maps/2s/occ/cropped.yaml
     origin: [0, 0, 3, 0, 0, 0]
     data_directory: package://utexas_ahg/maps/2s/occ
-  2ndFloor-Whole:
+  2ndFloorWhole:
     yaml: package://utexas_ahg/maps/2/occ/ahg_full.yaml
     origin: [0, 0, 3, 0, 0, 0]
     data_directory: package://utexas_ahg/maps/2/occ
